@@ -22,20 +22,5 @@ This repository contains the code and results of a Kaggle competition for predic
   - `Z3_lr.csv`: Penalized Linear Regression predictions.
   - `Caldwell.csv`: Stacked predictions.
 
-## Usage
 
-1. Clone this repository to your local machine.
-2. Navigate to the `src/` directory.
-3. Execute the `main.R` script to run the entire pipeline.
-
-## Notes
-
-- The `main.R` script orchestrates the entire process, including data cleaning, model training, prediction, and model stacking.
-- Each model's performance is evaluated individually before combining them through model stacking.
-- The `model_stacking.R` script implements a simple weighted averaging approach to combine predictions from the individual models.
-- For further improvements, one can explore more sophisticated model stacking techniques and hyperparameter tuning.
-
-## Results
-
-The final predictions are stored in the `Caldwell.csv` file in the `results/` directory.
 
